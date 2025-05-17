@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ] # Or your preferred branch, e.g., master, release/*
   # You can also add other triggers like pull_request, workflow_dispatch, etc.
+  workflow_dispatch:
 
 jobs:
   build-and-push:
