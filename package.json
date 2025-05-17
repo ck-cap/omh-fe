@@ -1,0 +1,27 @@
+{
+  "name": "candidate-dashboard-poc",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "autoprefixer": "^10.4.21",
+    "nuxt": "^3.10.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.511.0",
+    "radix-vue": "^1.9.17",
+    "tailwind-merge": "^3.3.0"
+  }
+}
